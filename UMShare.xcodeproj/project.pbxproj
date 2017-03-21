@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187ACA381E810BD90047EA75 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ACA371E810BD90047EA75 /* ShareView.m */; };
+		187ACA3C1E8156290047EA75 /* FFCoverPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187ACA3B1E8156290047EA75 /* FFCoverPopView.m */; };
 		18B4245B1E80BBE700ED90C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4245A1E80BBE700ED90C7 /* main.m */; };
 		18B4245E1E80BBE700ED90C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4245D1E80BBE700ED90C7 /* AppDelegate.m */; };
 		18B424611E80BBE700ED90C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B424601E80BBE700ED90C7 /* ViewController.m */; };
 		18B424641E80BBE700ED90C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B424621E80BBE700ED90C7 /* Main.storyboard */; };
 		18B424661E80BBE700ED90C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B424651E80BBE700ED90C7 /* Assets.xcassets */; };
 		18B424691E80BBE700ED90C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B424671E80BBE700ED90C7 /* LaunchScreen.storyboard */; };
+		224CEB8DB1E81C8EE5B69F17 /* libPods-UMShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AAA4CE50B02637F1960234 /* libPods-UMShare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187ACA361E810BD90047EA75 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		187ACA371E810BD90047EA75 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		187ACA3A1E8156280047EA75 /* FFCoverPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCoverPopView.h; sourceTree = "<group>"; };
+		187ACA3B1E8156290047EA75 /* FFCoverPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCoverPopView.m; sourceTree = "<group>"; };
 		18B424561E80BBE700ED90C7 /* UMShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B4245A1E80BBE700ED90C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B4245C1E80BBE700ED90C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		18B424651E80BBE700ED90C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B424681E80BBE700ED90C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B4246A1E80BBE700ED90C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AAA4CE50B02637F1960234 /* libPods-UMShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F304F0778ECC37A747CB49 /* Pods-UMShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMShare/Pods-UMShare.debug.xcconfig"; sourceTree = "<group>"; };
+		D8115B8C313D4B39AB5059DC /* Pods-UMShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMShare/Pods-UMShare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224CEB8DB1E81C8EE5B69F17 /* libPods-UMShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107C844B03C35AFB4ACB7D6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84F304F0778ECC37A747CB49 /* Pods-UMShare.debug.xcconfig */,
+				D8115B8C313D4B39AB5059DC /* Pods-UMShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		187ACA391E8156280047EA75 /* CommonCoverView */ = {
+			isa = PBXGroup;
+			children = (
+				187ACA3A1E8156280047EA75 /* FFCoverPopView.h */,
+				187ACA3B1E8156290047EA75 /* FFCoverPopView.m */,
+			);
+			path = CommonCoverView;
+			sourceTree = "<group>";
+		};
 		18B4244D1E80BBE700ED90C7 = {
 			isa = PBXGroup;
 			children = (
 				18B424581E80BBE700ED90C7 /* UMShare */,
 				18B424571E80BBE700ED90C7 /* Products */,
+				107C844B03C35AFB4ACB7D6B /* Pods */,
+				3538B1C66129130D7CD661C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +89,13 @@
 		18B424581E80BBE700ED90C7 /* UMShare */ = {
 			isa = PBXGroup;
 			children = (
+				187ACA391E8156280047EA75 /* CommonCoverView */,
 				18B4245C1E80BBE700ED90C7 /* AppDelegate.h */,
 				18B4245D1E80BBE700ED90C7 /* AppDelegate.m */,
 				18B4245F1E80BBE700ED90C7 /* ViewController.h */,
 				18B424601E80BBE700ED90C7 /* ViewController.m */,
+				187ACA361E810BD90047EA75 /* ShareView.h */,
+				187ACA371E810BD90047EA75 /* ShareView.m */,
 				18B424621E80BBE700ED90C7 /* Main.storyboard */,
 				18B424651E80BBE700ED90C7 /* Assets.xcassets */,
 				18B424671E80BBE700ED90C7 /* LaunchScreen.storyboard */,
@@ -79,6 +113,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3538B1C66129130D7CD661C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45AAA4CE50B02637F1960234 /* libPods-UMShare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B4246D1E80BBE700ED90C7 /* Build configuration list for PBXNativeTarget "UMShare" */;
 			buildPhases = (
+				FDBC2A88EB4C51556D483B8C /* [CP] Check Pods Manifest.lock */,
 				18B424521E80BBE700ED90C7 /* Sources */,
 				18B424531E80BBE700ED90C7 /* Frameworks */,
 				18B424541E80BBE700ED90C7 /* Resources */,
+				A1F3290EA9E6D4EE978DDB0A /* [CP] Embed Pods Frameworks */,
+				604A449A212E7137EB58AF9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +155,7 @@
 				TargetAttributes = {
 					18B424551E80BBE700ED90C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EZC4Q938KY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,11 +191,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		604A449A212E7137EB58AF9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMShare/Pods-UMShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F3290EA9E6D4EE978DDB0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMShare/Pods-UMShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBC2A88EB4C51556D483B8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18B424521E80BBE700ED90C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187ACA3C1E8156290047EA75 /* FFCoverPopView.m in Sources */,
+				187ACA381E810BD90047EA75 /* ShareView.m in Sources */,
 				18B424611E80BBE700ED90C7 /* ViewController.m in Sources */,
 				18B4245E1E80BBE700ED90C7 /* AppDelegate.m in Sources */,
 				18B4245B1E80BBE700ED90C7 /* main.m in Sources */,
@@ -270,10 +366,17 @@
 		};
 		18B4246E1E80BBE700ED90C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F304F0778ECC37A747CB49 /* Pods-UMShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZC4Q938KY;
 				INFOPLIST_FILE = UMShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TencentWeibo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.UMShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,10 +384,17 @@
 		};
 		18B4246F1E80BBE700ED90C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8115B8C313D4B39AB5059DC /* Pods-UMShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZC4Q938KY;
 				INFOPLIST_FILE = UMShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TencentWeibo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.UMShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -309,6 +419,7 @@
 				18B4246F1E80BBE700ED90C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
