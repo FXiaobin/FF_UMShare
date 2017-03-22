@@ -32,6 +32,7 @@
 
 - (void)showShareView:(UIButton *)sender{
     
+   
     NSArray *images = @[@"share_wx",@"share_timeLine",@"share_QQ",@"share_QQZone",@"share_timeLine",@"share_timeLine"];
     NSArray *titles = @[@"微信好友",@"微信朋友圈",@"QQ好友",@"QQ空间",@"新浪微博",@"腾讯微博"];
     
@@ -48,7 +49,7 @@
         NSLog(@"---- index = %ld",index);
         [pop hiddenCoverPopView];
     };
-    
+  
    
 }
 
